@@ -1,0 +1,25 @@
+{
+  "comboBoxes": [
+    {
+      "id": "department",
+      "title": "Department",
+      "placeholder": "Choose a department",
+      "items": [
+        { "text": "Engineering", "value": "eng" },
+        { "text": "Marketing", "value": "mkt" },
+        { "text": "Finance", "value": "fin" },
+        { "text": "Human Resources", "value": "hr" }
+      ]
+    },
+    {
+      "id": "priority",
+      "title": "Priority",
+      "placeholder": "Choose a priority",
+      "items": [
+        { "text": "Low", "value": "low" },
+        { "text": "Medium", "value": "med" },
+        { "text": "High", "value": "high" }
+      ]
+    }
+  ]
+}

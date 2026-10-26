@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Template Toolbar</title>
+  <script src="https://appsforoffice.microsoft.com/lib/1/hosted/office.js"></script>
+  <style>
+    body { font-family: Segoe UI, sans-serif; margin: 12px; font-size: 14px; }
+    label { display: block; margin: 10px 0 4px; font-weight: 600; }
+    select, button { width: 100%; padding: 6px; box-sizing: border-box; }
+    button { margin-top: 12px; background: #2b579a; color: #fff; border: 0; cursor: pointer; }
+    #status { margin-top: 10px; color: #444; min-height: 1.2em; }
+  </style>
+</head>
+<body>
+  <h3>Insert combo box</h3>
+  <label for="source">List source (from components.json)</label>
+  <select id="source"></select>
+  <button id="insert">Insert combo box at cursor</button>
+  <div id="status"></div>
+  <script src="taskpane.js"></script>
+</body>
+</html>
